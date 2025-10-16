@@ -4,5 +4,5 @@
 # Ignorar carpeta de entorno virtual de Python
 .venv/
 
-# Ignorar archivos compilados de C++
-*.exe
+# Ignorar archivos .exe únicamente dentro de la carpeta C_C++
+C_C++/*.exe
