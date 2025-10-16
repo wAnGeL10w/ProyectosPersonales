@@ -1,0 +1,8 @@
+# Ignorar carpeta de configuración de VS Code
+.vscode/
+
+# Ignorar carpeta de entorno virtual de Python
+.venv/
+
+# Ignorar archivos compilados de C++
+*.exes
