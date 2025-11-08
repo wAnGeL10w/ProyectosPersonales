@@ -7,3 +7,48 @@
 # Ignorar archivos .exe únicamente dentro de ciertas carpetas
 C++/*.exe
 C_C++/*.exe
+
+# Archivos binarios y temporales
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.log
+
+# Configuración de usuario de Visual Studio / VS Code
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de compilación y cachés
+*.cache
+*.db
+*.opendb
+*.ide
+*.tmp
+
+# Archivos de paquetes NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+.nuget/
+
+# Publicaciones temporales
+publish/
+wwwroot/
+
+# Configuración local de ASP.NET
+appsettings.Development.json
+
+# Otros archivos innecesarios
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.bak
+*.swp
+*.tmp
