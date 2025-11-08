@@ -4,7 +4,7 @@ import json
 #Este proyecto fue realizado con apoyo de la IA de Gemini de Google.
 
 #API Key de OpenWeather (debes reemplazarla con tu propia clave si es necesario)
-OPENWEATHER_API_KEY = "e81ab9acb4f6e640de2ae97ba88dad62" 
+OPENWEATHER_API_KEY = "TU_API_KEY_AQUI" 
 
 def get_weather_from_coords(lat, lon, location_name):
     print(f"\nObteniendo clima para {location_name}...")
